@@ -1,0 +1,8 @@
+spring.application.name: SIMILAR-PRODUCT-SERVICE
+server.port: 5000
+infrastructure:
+  external-endpoints:
+    destination:
+      baseUri: "localhost:3001"
+      productByIdPath: "/product/"
+      SimilarIdsPath: "/similarids"
